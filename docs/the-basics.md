@@ -11,10 +11,10 @@ localhost.run is a client-less tool to instantly make a locally running applicat
 
 All major operating systems already have SSH installed, and localhost.run uses SSH as a client, so no download is necessary to use the service and no account setup is needed for free domains.
 
-To connect an internet domain to an application running locally on port 8080 open a command terminal and run:
+To connect an internet domain to an application running locally on port 8239 open a command terminal and run:
 
 ```bash
-ssh -R 80:localhost:8080 localhost.run
+ssh -R 80:localhost:8239 localhost.run
 ```
 
 import { useState } from 'react'
